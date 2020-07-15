@@ -1,5 +1,5 @@
 def dfs(n, edges):
-    """Given a list of all edges of a graph with vertices 1 to n,
+    """Given a list of all edges of a graph with vertices 0 to n-1,
     will explore every vertex, depth first, without recursion."""
     edges_by_vertex = dict([(i, []) for i in range(n)])
     for edge in edges:
